@@ -40,5 +40,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update recall feed ($(date -u +%Y-%m-%d))"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
