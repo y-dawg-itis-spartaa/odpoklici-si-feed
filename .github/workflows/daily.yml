@@ -1,0 +1,44 @@
+# Daily 90-day rolling recall feed for Odpoklici SI.
+# Text-only: recalls.json holds official image URLs; no photo files are committed.
+# 05:00 UTC = 06:00 Europe/Ljubljana in winter (CET). In summer (CEST) it runs at 07:00.
+name: Daily recall feed
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: odpoklici-feed
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Scrape official GOV.SI and JAZMP notices
+        run: python3 scrape.py --out recalls.json --days 90
+
+      - name: Commit recalls.json if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add recalls.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update recall feed ($(date -u +%Y-%m-%d))"
+            git push
+          fi
