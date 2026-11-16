@@ -467,6 +467,150 @@ def triage(it: dict) -> str:
     return "orange"
 
 
+def classify_danger(it: dict) -> str:
+    """Optional item['danger'] for the app's Danger effects. Backward compatible.
+    Values: bacterial, foreign, chemical, allergen, medical, quality.
+    """
+    cat = (it.get("cat") or "").lower()
+    src = (it.get("source") or "").lower()
+    if cat in {"medicine", "device"} or src == "jazmp":
+        return "medical"
+    blob = " ".join([
+        it.get("hazard") or "", it.get("riskType") or "", it.get("intro") or "",
+        it.get("title") or "", it.get("desc") or "", it.get("action") or "",
+        it.get("advice") or "", it.get("products") or "",
+    ]).lower()
+    if re.search(
+        r"alergen|allerg|niso naveden|ni naveden|undeclared|neoznačen|neoznacen|"
+        r"nedeklarir|linalol|linalool|izoeugenol",
+        blob,
+    ):
+        return "allergen"
+    if re.search(r"prisotnost (glutena|arašid|mleka|jajc|sezam|soje|orešč|mlečnih)", blob):
+        return "allergen"
+    # specific toxins before generic mould wording
+    if re.search(
+        r"aflatok|mikotoksin|fumonizin|ohratok|pesticid|pesticide|mycotoxin|"
+        r"ethylene|etilen.?oksid",
+        blob,
+    ):
+        return "chemical"
+    if re.search(
+        r"mikrobiološk|salmonel|lister|e\.\s*coli|escherichia|bakterij|"
+        r"campylobact|monocyto|kronobact|noravirus|bacillus|plesen|plesni|"
+        r"pljesni|\bmikrob",
+        blob,
+    ):
+        return "bacterial"
+    if re.search(
+        r"kemič|ftalat|svinec|bisfenol|žveplov|dehp\b|glicidil|glycid|kadmi|"
+        r"živo srebro|\blead\b|aromatskih amin|migracija|hlapnih snovi|"
+        r"težk(?:ih|e) kovin|nitrozab|tadalafil|sildenafil|učinkovine zdravil",
+        blob,
+    ):
+        return "chemical"
+    if re.search(
+        r"fizikaln|\bstekl[oia]\b|kovinsk|nečistoč|necistoc|zadušit|"
+        r"majhni del|\btujek\b|kovinskih delc|foreign body|\bglass\b|fragment",
+        blob,
+    ):
+        return "foreign"
+    return "quality"
+
+
+def classify_genre(it: dict) -> str:
+    """Optional item['genre'] (finer reason). Backward compatible."""
+    cat = (it.get("cat") or "").lower()
+    dang = it.get("danger") or ""
+    b = " ".join([
+        it.get("hazard") or "", it.get("riskType") or "", it.get("intro") or "",
+        it.get("title") or "", it.get("desc") or "", it.get("action") or "",
+        it.get("advice") or "", it.get("products") or "",
+    ]).lower()
+    if cat == "medicine" or (dang == "medical" and cat != "device"):
+        if cat == "device":
+            return "device"
+        if cat == "medicine" or "zdravil" in b:
+            return "medicine"
+    if cat == "device" or dang == "medical":
+        return "device"
+    if re.search(r"arašid|peanut", b) and re.search(r"niso naveden|ni naveden|neoznačen|nedeklarir|undeclared|alergen", b):
+        return "peanut"
+    if re.search(r"gluten|celiak", b):
+        return "gluten"
+    if re.search(r"alergena mleka|mlečne beljakovine|mleka, ki na embalaži", b):
+        return "milk"
+    if re.search(r"sojin|soje", b) and re.search(r"niso naveden|neoznačen|nedeklarir|alergen", b):
+        return "soy"
+    if re.search(r"linalol|linalool|limonene|cinnamal|izoeugenol|kumarin|alfa-izometil|dišavn", b):
+        return "fragrance"
+    if dang == "allergen":
+        return "allergen_other"
+    if re.search(r"lister", b):
+        return "listeria"
+    if re.search(r"salmonel", b):
+        return "salmonella"
+    if re.search(r"e\.\s*coli|escherichia|hemoragični kolitis|hemolitični uremični", b):
+        return "ecoli"
+    if re.search(r"noravirus", b):
+        return "norovirus"
+    if re.search(r"bacillus", b):
+        return "bacillus"
+    if re.search(r"aflatok|mikotoksin|fumonizin|ohratok|mycotoxin", b):
+        return "mycotoxin"
+    if re.search(r"plesen|plesni|pljesni", b):
+        return "mould"
+    if dang == "bacterial":
+        return "microbe_other"
+    if re.search(r"etilen.?oksid|ethylene oxide", b):
+        return "eto"
+    if re.search(r"pesticid", b):
+        return "pesticide"
+    if cat == "nonfood" and re.search(r"ftalat|dehp|svinec|\blead\b|nikelj|nickel", b):
+        return "phthalate_lead"
+    if re.search(r"svinec|kadmi|živo srebro|težk(?:ih|e) kovin|\blead\b|mercury", b):
+        return "heavymetal"
+    if re.search(r"bisfenol", b):
+        return "bisphenol"
+    if re.search(r"aromatskih amin|migracija", b):
+        return "amine"
+    if re.search(r"tadalafil|sildenafil|učinkovine zdravil", b):
+        return "undeclared_drug"
+    if re.search(r"nitrozab", b):
+        return "nitrosamine"
+    if re.search(r"žveplov", b):
+        return "so2"
+    if re.search(r"glicidil|glycid", b):
+        return "glycidyl"
+    if re.search(r"hlapnih snovi", b):
+        return "voc"
+    if re.search(r"gumbn|predal za bater|pokrov(?:a)? predala za bater|prosto dostopnost bater|dostopn\w* (?:do )?bater|dostopnih (?:gumbnih |aa )?bater|baterij\w* (?:v njem )?lahko dostop|postale dostopne gumbne", b):
+        return "battery"
+    if re.search(r"\bstekl[oia]\b|\bglass\b", b):
+        return "glass"
+    if re.search(r"kovinsk|kovinskih delc|metal(?:nih|ni)?\s*delc", b):
+        return "metal"
+    if re.search(r"zadušit|majhni del|majhnih delc", b):
+        return "choke"
+    if re.search(r"plast|vrečk", b) and dang == "foreign":
+        return "plastic"
+    if re.search(r"nečistoč|fizikaln", b):
+        return "impurity"
+    if dang == "foreign":
+        return "foreign_other"
+    if re.search(r"okvara vida|mrežnic|bliskavic", b):
+        return "vision"
+    if re.search(r"požar|pregrevan", b):
+        return "fire"
+    if re.search(r"električni udar|napajaln|kabel|električnih varnost", b):
+        return "electrical"
+    if re.search(r"označen|označene|označeno|prenizka glede|previsoko količino vitamina", b):
+        return "labelling"
+    if dang == "quality":
+        return "quality_other"
+    return "other"
+
+
 def parse_jazmp_list(html: str):
     posts = []
     parts = re.split(r"<article\b", html, flags=re.I)
@@ -703,6 +847,8 @@ def main() -> int:
     for it in items:
         it.pop("_image_src", None)
         it.pop("skip", None)
+        it["danger"] = classify_danger(it)
+        it["genre"] = classify_genre(it)
 
     dates = [it["date"] for it in items if it.get("date")]
     generated = now_local().replace(microsecond=0)
@@ -723,6 +869,8 @@ def main() -> int:
     src = Counter(it["source"] for it in items)
     cat = Counter(it["cat"] for it in items)
     risk = Counter(it["risk"] for it in items)
+    danger = Counter(it.get("danger") or "—" for it in items)
+    genre = Counter(it.get("genre") or "—" for it in items)
     print("---")
     hosts = Counter(
         (urlparse(it["image"]).hostname or "").lower()
@@ -732,6 +880,8 @@ def main() -> int:
     print(f"sources: {dict(src)}")
     print(f"cats: {dict(cat)}")
     print(f"risk: {dict(risk)}")
+    print(f"danger: {dict(danger)}")
+    print(f"genre: {dict(genre)}")
     print(f"image hosts: {dict(hosts)}")
     print(f"newest: {max(dates) if dates else '—'}  oldest: {min(dates) if dates else '—'}")
     print(f"http ok={fetcher.ok} fail={fetcher.fail}")
