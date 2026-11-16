@@ -1,7 +1,7 @@
 {
  "version": 1,
  "schema_version": 1,
- "generated_at": "2026-11-16T07:38:44+01:00",
+ "generated_at": "2026-11-16T09:09:45+01:00",
  "dataDate": "2026-11-16",
  "window": "2026-08-18–2026-11-16",
  "windowDays": 90,
@@ -30,7 +30,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/hello-baby-vlazilna-in-blazilna-krema-100-ml/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/HELLOBABY-Vlazilna-in-blazilna-krema-__FitWzk4MCw5ODAsIjUxZDc4OGIzMjYiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/HELLOBABY-Vlazilna-in-blazilna-krema-__FitWzk4MCw5ODAsIjUxZDc4OGIzMjYiXQ.jpg",
+   "danger": "allergen",
+   "genre": "fragrance"
   },
   {
    "id": "apis-natural-cosmetics-regenerating-cream-with-ceramides-and-omega-3-6-9-acids-regeneracijska-krema-s-ceramidi-ter-mascobnimi-kislinami-omega-3-6-in-9",
@@ -54,7 +56,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/apis-natural-cosmetics-regenerating-cream-with-ceramides-and-omega-3-6-9-acids-regeneracijska-krema-s-ceramidi-ter-mascobnimi-kislinami-omega-3-6-in-9/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/apis__FitWzk4MCw5ODAsImJlMDU0OTFkYjkiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/apis__FitWzk4MCw5ODAsImJlMDU0OTFkYjkiXQ.png",
+   "danger": "allergen",
+   "genre": "fragrance"
   },
   {
    "id": "jazmp-varnostna-obvestila-za-medicinske-pripom",
@@ -72,13 +76,15 @@
    "distributor": "",
    "riskType": "",
    "origin": "",
-   "hazard": "Obveščamo vas, da so na spletni strani JAZMP na voljo obvestila o varnostnih korektivnih ukrepih za medicinske pripomočke, ki jih je JAZMP prejela s strani proizvajalcev ali pooblaščenih predstavnikov proizvajalcev v oktobru 2026. Na voljo so na naslednji Povezavi .\n\n\n\nObvestilo o varnostnih korektivnih ukrepih je pisno obvestilo proizvajalca ali pooblaščenega predstavnika proizvajalca medicinskih pripomočkov o varnostnih korektivnih ukrepih, ki jih je potrebno uvesti, da so pripomočki varni za uporabo ter da se tako zmanjšajo možnosti za nastanek zdravju škodljivih dogodkov.\n\n\n\nProizvajalec medicinskih pripomočkov ali pooblaščeni predstavnik proizvajalca mora o varnostnih korektivnih ukrepih pisno obvestiti tako JAZMP kot uporabnike medicinskih pripomočkov, pri čemer mora proizvajalec zagotoviti, da so vsi uporabniki nemudoma obveščeni.\n\n\n\nMesečni seznam obvestil o varnostnih korektivnih ukrepih morda ni popoln. Seznam vključuje obvestila, ki jih je prejela JAZMP. V primeru, da prejmete obvestilo o varnostnem korektivnem ukrepu, ki ni na mesečnem seznamu, nam prosimo to sporočite na elektronski naslov: document.getElementById(\"eeb-736182-983075\").innerHTML = decodeURIComponent(…",
+   "hazard": "Obveščamo vas, da so na spletni strani JAZMP na voljo obvestila o varnostnih korektivnih ukrepih za medicinske pripomočke, ki jih je JAZMP prejela s strani proizvajalcev ali pooblaščenih predstavnikov proizvajalcev v oktobru 2026. Na voljo so na naslednji Povezavi .\n\n\n\nObvestilo o varnostnih korektivnih ukrepih je pisno obvestilo proizvajalca ali pooblaščenega predstavnika proizvajalca medicinskih pripomočkov o varnostnih korektivnih ukrepih, ki jih je potrebno uvesti, da so pripomočki varni za uporabo ter da se tako zmanjšajo možnosti za nastanek zdravju škodljivih dogodkov.\n\n\n\nProizvajalec medicinskih pripomočkov ali pooblaščeni predstavnik proizvajalca mora o varnostnih korektivnih ukrepih pisno obvestiti tako JAZMP kot uporabnike medicinskih pripomočkov, pri čemer mora proizvajalec zagotoviti, da so vsi uporabniki nemudoma obveščeni.\n\n\n\nMesečni seznam obvestil o varnostnih korektivnih ukrepih morda ni popoln. Seznam vključuje obvestila, ki jih je prejela JAZMP. V primeru, da prejmete obvestilo o varnostnem korektivnem ukrepu, ki ni na mesečnem seznamu, nam prosimo to sporočite na elektronski naslov: document.getElementById(\"eeb-672607-592113\").innerHTML = decodeURIComponent(…",
    "action": "",
    "advice": "",
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/11/13/varnostna-obvestila-za-medicinske-pripomocke-oktober-2026/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "device"
   },
   {
    "id": "sveza-raca",
@@ -102,7 +108,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/sveza-raca/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/sv-raca__FitWzk4MCw5ODAsIjhlZGMzY2EyYzMiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/sv-raca__FitWzk4MCw5ODAsIjhlZGMzY2EyYzMiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "nuby-zlicka-za-kasico",
@@ -126,7 +134,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/nuby-zlicka-za-kasico/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Nuby-pic__FitWzk4MCw5ODAsIjc1NjcxM2I3ZjciXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Nuby-pic__FitWzk4MCw5ODAsIjc1NjcxM2I3ZjciXQ.png",
+   "danger": "chemical",
+   "genre": "bisphenol"
   },
   {
    "id": "pizza-sunka-narezek",
@@ -150,7 +160,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/pizza-sunka-narezek/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/pizza-sunka__FitWzk4MCw5ODAsIjQwODBhZDhmZDciXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/pizza-sunka__FitWzk4MCw5ODAsIjQwODBhZDhmZDciXQ.png",
+   "danger": "bacterial",
+   "genre": "listeria"
   },
   {
    "id": "koruzna-moka-3",
@@ -174,7 +186,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/koruzna-moka-3/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/BIO-KM-1__FitWzk4MCw5ODAsIjNjYzZjMzUwMGYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/BIO-KM-1__FitWzk4MCw5ODAsIjNjYzZjMzUwMGYiXQ.png",
+   "danger": "chemical",
+   "genre": "mycotoxin"
   },
   {
    "id": "jazmp-priporocila-za-varno-uporabo-sistemov-za",
@@ -198,7 +212,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/11/09/priporocila-za-varno-uporabo-sistemov-za-neprekinjeno-spremljanje-glukoze-cgm/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "device"
   },
   {
    "id": "pinjole-2",
@@ -222,7 +238,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/pinjole-2/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-Pinjole__FillWzQ1MCwzMzAsIjNlNmM4OTQ0ZDIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-Pinjole__FillWzQ1MCwzMzAsIjNlNmM4OTQ0ZDIiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "pinjole-3",
@@ -246,7 +264,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/pinjole-3/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-Pinjole-v2__FillWzQ1MCwzMzAsImZlZDZmNDc2ZDYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-Pinjole-v2__FillWzQ1MCwzMzAsImZlZDZmNDc2ZDYiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "mesanica-semen-za-solato",
@@ -270,7 +290,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mesanica-semen-za-solato/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Mesanica-semen-za-solato__FillWzQ1MCwzMzAsIjdmMjI4YzFhZTEiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Mesanica-semen-za-solato__FillWzQ1MCwzMzAsIjdmMjI4YzFhZTEiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "pinjole-4",
@@ -294,7 +316,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/pinjole-4/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/foto-dennree-pinjole__FillWzQ1MCwzMzAsIjllYzcwM2UyZWYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/foto-dennree-pinjole__FillWzQ1MCwzMzAsIjllYzcwM2UyZWYiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "klapavice",
@@ -317,7 +341,9 @@
    "advice": "Potrošnikom svetujemo, da živila ne zaužijejo, temveč zavržejo ali vrnejo na mesto nakupa.\nČe so školjke ustrezno termično obdelane, tako da temperatura v njihovi notranjosti doseže najmanj 90 °C za 2 minuti, se norovirus uniči.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/klapavice/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "bacterial",
+   "genre": "norovirus"
   },
   {
    "id": "igraca-jadrnica-sail-boat-navigator",
@@ -341,7 +367,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-jadrnica-sail-boat-navigator/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Igraca-Sail-boat-navigator__FitWzk4MCw5ODAsImI1NGVkM2NhZGUiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Igraca-Sail-boat-navigator__FitWzk4MCw5ODAsImI1NGVkM2NhZGUiXQ.jpg",
+   "danger": "chemical",
+   "genre": "battery"
   },
   {
    "id": "suhe-marelice-3",
@@ -365,7 +393,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/suhe-marelice-3/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Posnetek-zaslona-2026-11-05-191024__FillWzQ1MCwzMzAsIjgwOTliNDg0NGIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Posnetek-zaslona-2026-11-05-191024__FillWzQ1MCwzMzAsIjgwOTliNDg0NGIiXQ.png",
+   "danger": "chemical",
+   "genre": "so2"
   },
   {
    "id": "jazmp-obvestilo-o-nepravilnem-prikazovanju-mer",
@@ -389,7 +419,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/11/05/obvestilo-o-nepravilnem-prikazovanju-merskih-enot-v-aplikaciji-sibionics-gs3-r/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "device"
   },
   {
    "id": "jazmp-strokovno-priporocilo-za-prehod-z-zdravi",
@@ -413,7 +445,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/11/05/strokovno-priporocilo-za-prehod-z-zdravila-lenzetto-transdermalno-prsilo-na-zdravilo-estradiol-besins-transdermalni-gel/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "medicine"
   },
   {
    "id": "igraca-avtomobil-ki-se-preoblikuje-v-robota",
@@ -437,7 +471,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-avtomobil-ki-se-preoblikuje-v-robota/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Toy-car__FitWzk4MCw5ODAsIjViNmIwYTgxM2UiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Toy-car__FitWzk4MCw5ODAsIjViNmIwYTgxM2UiXQ.jpg",
+   "danger": "quality",
+   "genre": "vision"
   },
   {
    "id": "jazmp-caelyx-pegylated-liposomal-2-mg-ml-konce",
@@ -461,7 +497,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/11/02/caelyx-pegylated-liposomal-2-mg-ml-koncentrat-za-raztopino-za-infundiranje-doksorubicin-obvestilo-za-zdravstvene-delavce/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "medicine"
   },
   {
    "id": "igraca-pistola-avengers",
@@ -485,7 +523,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-pistola-avengers/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Igraca-pistola-Avengers-__FitWzk4MCw5ODAsIjM3YThhNzE3ZWQiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Igraca-pistola-Avengers-__FitWzk4MCw5ODAsIjM3YThhNzE3ZWQiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "svetlece-bozicne-kroglice-home-and-marker",
@@ -509,7 +549,9 @@
    "institution": "Tržni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/svetlece-bozicne-kroglice-home-and-marker/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-2_etiketa-z-informacijami__FitWzk4MCw5ODAsImIzNGU5OWE3ZWYiXQ.JPG"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-2_etiketa-z-informacijami__FitWzk4MCw5ODAsImIzNGU5OWE3ZWYiXQ.JPG",
+   "danger": "quality",
+   "genre": "electrical"
   },
   {
    "id": "elektricni-pogon-za-kajaksup-itiwit",
@@ -533,7 +575,9 @@
    "institution": "Tržni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/elektricni-pogon-za-kajaksup-itiwit/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-1_pogon-in-baterija-za-kajak-oziroma-SUP__FitWzk4MCw5ODAsIjQ5NjdkNDBhYzEiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-1_pogon-in-baterija-za-kajak-oziroma-SUP__FitWzk4MCw5ODAsIjQ5NjdkNDBhYzEiXQ.jpg",
+   "danger": "quality",
+   "genre": "fire"
   },
   {
    "id": "japonski-rjavi-riz",
@@ -557,7 +601,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/japonski-rjavi-riz/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/01AM3003__FillWzQ1MCwzMzAsIjNkYWQxNzMwYmIiXQ.webp"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/01AM3003__FillWzQ1MCwzMzAsIjNkYWQxNzMwYmIiXQ.webp",
+   "danger": "chemical",
+   "genre": "pesticide"
   },
   {
    "id": "mesanica-hrustljavih-arasidov",
@@ -581,7 +627,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mesanica-hrustljavih-arasidov/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v22__FillWzQ1MCwzMzAsIjAwMDMxZjRhMzYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v22__FillWzQ1MCwzMzAsIjAwMDMxZjRhMzYiXQ.png",
+   "danger": "quality",
+   "genre": "quality_other"
   },
   {
    "id": "toast-8",
@@ -605,7 +653,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-8/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v20__FillWzQ1MCwzMzAsImU4NDliNDg4MTIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v20__FillWzQ1MCwzMzAsImU4NDliNDg4MTIiXQ.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "toast-sunka",
@@ -629,7 +679,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-sunka/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v21__FillWzQ1MCwzMzAsIjc3ZjZiMzU5YjMiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v21__FillWzQ1MCwzMzAsIjc3ZjZiMzU5YjMiXQ.png",
+   "danger": "bacterial",
+   "genre": "listeria"
   },
   {
    "id": "igraca-sintesizer-electronic-keyboard",
@@ -653,7 +705,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-sintesizer-electronic-keyboard/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v37__FitWzk4MCw5ODAsImE2M2M0OGI0NjIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v37__FitWzk4MCw5ODAsImE2M2M0OGI0NjIiXQ.png",
+   "danger": "quality",
+   "genre": "fire"
   },
   {
    "id": "krmna-proizvoda-za-pse",
@@ -677,7 +731,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/krmna-proizvoda-za-pse/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/FI-1__FitWzk4MCw5ODAsIjQ2NWUzYzQ3ZWIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/FI-1__FitWzk4MCw5ODAsIjQ2NWUzYzQ3ZWIiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "toast-6",
@@ -701,7 +757,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-6/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/9004654__FillWzQ1MCwzMzAsIjZiNDk3MDIwOWQiXQ.1_Masleni-toast-kruh-Klasik-500g.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/9004654__FillWzQ1MCwzMzAsIjZiNDk3MDIwOWQiXQ.1_Masleni-toast-kruh-Klasik-500g.jpg",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "toast-7",
@@ -725,7 +783,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-7/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/74fba51a-5666-4084-ada8-29fd72185424__FillWzQ1MCwzMzAsImY3NWQ0NDIyZDUiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/74fba51a-5666-4084-ada8-29fd72185424__FillWzQ1MCwzMzAsImY3NWQ0NDIyZDUiXQ.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "kuhinjski-pripomocki-5-delni-komplet",
@@ -749,7 +809,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/kuhinjski-pripomocki-5-delni-komplet/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Kik-pripomocki-PAA__FitWzk4MCw5ODAsIjU4OWMyODUzNmYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Kik-pripomocki-PAA__FitWzk4MCw5ODAsIjU4OWMyODUzNmYiXQ.png",
+   "danger": "chemical",
+   "genre": "amine"
   },
   {
    "id": "toast-3",
@@ -773,7 +835,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-3/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v17__FillWzQ1MCwzMzAsImY1MWUzYjVlMTYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v17__FillWzQ1MCwzMzAsImY1MWUzYjVlMTYiXQ.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "toast-4",
@@ -796,7 +860,9 @@
    "advice": "Potrošnikom svetujemo, da živila ne uporabijo in zaužijejo, temveč ga vrnejo na mesto nakupa ali zavržejo.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-4/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "toast-5",
@@ -820,7 +886,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-5/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v18__FillWzQ1MCwzMzAsIjI1M2IwZjRjMDciXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v18__FillWzQ1MCwzMzAsIjI1M2IwZjRjMDciXQ.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "urad-republike-slovenije-za-kemikalije-objavlja-obvestilo-o-odpoklicu-izdelka-bactador-odstranjevalec-vonjav-in-madezev-750-ml-ki-ga-je-sprozilo-podjetje-mueller-drogerija-d-o-o",
@@ -844,7 +912,9 @@
    "institution": "Urad za kemikalije",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/urad-republike-slovenije-za-kemikalije-objavlja-obvestilo-o-odpoklicu-izdelka-bactador-odstranjevalec-vonjav-in-madezev-750-ml-ki-ga-je-sprozilo-podjetje-mueller-drogerija-d-o-o/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/bactador-odstranjevalec-vonja-in-madezev__FitWzk4MCw5ODAsIjE3ZGYzOTk0YzciXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/bactador-odstranjevalec-vonja-in-madezev__FitWzk4MCw5ODAsIjE3ZGYzOTk0YzciXQ.jpg",
+   "danger": "bacterial",
+   "genre": "microbe_other"
   },
   {
    "id": "nakit-stik-s-kozo-3-delni-set-nakita-v-barvah-pink-and-rumena",
@@ -868,7 +938,9 @@
    "institution": "Urad za kemikalije",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/nakit-stik-s-kozo-3-delni-set-nakita-v-barvah-pink-and-rumena/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/3-delni-set-Tedi__FitWzk4MCw5ODAsImE0NDYxOWJiZWUiXQ.jpg.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/3-delni-set-Tedi__FitWzk4MCw5ODAsImE0NDYxOWJiZWUiXQ.jpg.png",
+   "danger": "chemical",
+   "genre": "phthalate_lead"
   },
   {
    "id": "zamrznjena-raca",
@@ -892,7 +964,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/zamrznjena-raca/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika2-v10__FitWzk4MCw5ODAsIjA3Y2UzNjE1NGEiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika2-v10__FitWzk4MCw5ODAsIjA3Y2UzNjE1NGEiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "servirna-spatula-prijemalka-iz-poliamida",
@@ -916,7 +990,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/servirna-spatula-prijemalka-iz-poliamida/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-spatula__FitWzk4MCw5ODAsIjJhNWZmYTU0ZjAiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-spatula__FitWzk4MCw5ODAsIjJhNWZmYTU0ZjAiXQ.jpg",
+   "danger": "chemical",
+   "genre": "amine"
   },
   {
    "id": "rizevi-krekerji",
@@ -940,7 +1016,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/rizevi-krekerji/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v14__FillWzQ1MCwzMzAsIjJkZDZkNmViMzIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v14__FillWzQ1MCwzMzAsIjJkZDZkNmViMzIiXQ.png",
+   "danger": "chemical",
+   "genre": "glycidyl"
   },
   {
    "id": "rizevi-krekerji-2",
@@ -964,7 +1042,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/rizevi-krekerji-2/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v15__FillWzQ1MCwzMzAsIjdhNDdkOGMxYzUiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v15__FillWzQ1MCwzMzAsIjdhNDdkOGMxYzUiXQ.png",
+   "danger": "chemical",
+   "genre": "glycidyl"
   },
   {
    "id": "temna-cokolada",
@@ -988,7 +1068,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/temna-cokolada/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v16__FillWzQ1MCwzMzAsImQzM2IwZjA0YTYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/fotografija-v16__FillWzQ1MCwzMzAsImQzM2IwZjA0YTYiXQ.png",
+   "danger": "allergen",
+   "genre": "peanut"
   },
   {
    "id": "dodaj-zapis-v-seznamu-261022130109",
@@ -1012,7 +1094,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/dodaj-zapis-v-seznamu-261022130109/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/parfum-Eye-of-love__FitWzk4MCw5ODAsIjFmZGZiYTQ5YTEiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/parfum-Eye-of-love__FitWzk4MCw5ODAsIjFmZGZiYTQ5YTEiXQ.png",
+   "danger": "allergen",
+   "genre": "fragrance"
   },
   {
    "id": "otroska-silikonska-skledica",
@@ -1036,7 +1120,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/otroska-silikonska-skledica/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Photo-silikonskaSkodelica__FitWzk4MCw5ODAsIjhlMjM3YzJjMDQiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Photo-silikonskaSkodelica__FitWzk4MCw5ODAsIjhlMjM3YzJjMDQiXQ.png",
+   "danger": "chemical",
+   "genre": "voc"
   },
   {
    "id": "mleta-kava",
@@ -1060,7 +1146,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mleta-kava/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/slika-kave__FitWzk4MCw5ODAsImZjMDAxMGYxNjAiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/slika-kave__FitWzk4MCw5ODAsImZjMDAxMGYxNjAiXQ.png",
+   "danger": "chemical",
+   "genre": "mycotoxin"
   },
   {
    "id": "parfum-puella-double-y",
@@ -1084,7 +1172,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/parfum-puella-double-y/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/puella-parfum__FitWzk4MCw5ODAsImJmYmRkM2Y2NzkiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/puella-parfum__FitWzk4MCw5ODAsImJmYmRkM2Y2NzkiXQ.jpg",
+   "danger": "allergen",
+   "genre": "fragrance"
   },
   {
    "id": "igraca-kitara-milestar-chitarra-rock-musicale",
@@ -1108,7 +1198,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-kitara-milestar-chitarra-rock-musicale/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/kitara-rock-musicale__FitWzk4MCw5ODAsIjRiNGZlMjg4NTIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/kitara-rock-musicale__FitWzk4MCw5ODAsIjRiNGZlMjg4NTIiXQ.png",
+   "danger": "foreign",
+   "genre": "battery"
   },
   {
    "id": "mleto-mesano-meso-7",
@@ -1132,7 +1224,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mleto-mesano-meso-7/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/MMM-slika__FitWzk4MCw5ODAsImQwYjNmM2M4MjciXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/MMM-slika__FitWzk4MCw5ODAsImQwYjNmM2M4MjciXQ.png",
+   "danger": "bacterial",
+   "genre": "ecoli"
   },
   {
    "id": "igraca-s-silikonskimi-vlecnimi-vrvicami-s-spletne-trznice-sheindodaj-zapis-v-seznamu",
@@ -1156,7 +1250,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-s-silikonskimi-vlecnimi-vrvicami-s-spletne-trznice-sheindodaj-zapis-v-seznamu/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/pistola-temu__FitWzk4MCw5ODAsIjNiNjkwNzJhNmYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/pistola-temu__FitWzk4MCw5ODAsIjNiNjkwNzJhNmYiXQ.png",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "led-kljuc-za-kolesarsko-kljucavnico-giant",
@@ -1180,7 +1276,9 @@
    "institution": "Tržni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/led-kljuc-za-kolesarsko-kljucavnico-giant/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/LED-kljuc__FitWzk4MCw5ODAsIjFkYTEwY2M1YmYiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/LED-kljuc__FitWzk4MCw5ODAsIjFkYTEwY2M1YmYiXQ.jpg",
+   "danger": "foreign",
+   "genre": "battery"
   },
   {
    "id": "toasti",
@@ -1204,7 +1302,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toasti/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/ameriski-toast__FitWzk4MCw5ODAsIjgzN2U5ZTVjNjUiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/ameriski-toast__FitWzk4MCw5ODAsIjgzN2U5ZTVjNjUiXQ.jpg",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "jetrna-pasteta",
@@ -1227,7 +1327,9 @@
    "advice": "Živilo ni varno za osebe s preobčutljivostjo na gluten. Živilo ne predstavlja tveganja za običajnega potrošnika. Živilu je rok uporabe potekel.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/jetrna-pasteta/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "allergen",
+   "genre": "gluten"
   },
   {
    "id": "chia-semena",
@@ -1251,7 +1353,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/chia-semena/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Chia-semena__FillWzQ1MCwzMzAsImEzYjNmNWU5ODEiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Chia-semena__FillWzQ1MCwzMzAsImEzYjNmNWU5ODEiXQ.jpg",
+   "danger": "foreign",
+   "genre": "impurity"
   },
   {
    "id": "prehransko-dopolnilo-6",
@@ -1275,7 +1379,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/prehransko-dopolnilo-6/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Foto-kupid__FitWzk4MCw5ODAsIjQ2OTNkZDBkZmMiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Foto-kupid__FitWzk4MCw5ODAsIjQ2OTNkZDBkZmMiXQ.png",
+   "danger": "chemical",
+   "genre": "undeclared_drug"
   },
   {
    "id": "prehransko-dopolnilo-dr-hard",
@@ -1299,7 +1405,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/prehransko-dopolnilo-dr-hard/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Phot-Dr__FitWzk4MCw5ODAsIjk2MTc5MTNkNmQiXQ.hard+.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Phot-Dr__FitWzk4MCw5ODAsIjk2MTc5MTNkNmQiXQ.hard+.png",
+   "danger": "chemical",
+   "genre": "undeclared_drug"
   },
   {
    "id": "jazmp-obvestilo-o-varnostnem-korektivnem-ukrep",
@@ -1323,7 +1431,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/10/13/obvestilo-o-varnostnem-korektivnem-ukrepu-za-medicinske-pripomocke-ialuadapter-urodapter-in-sistem-ialuril-prefill/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "device"
   },
   {
    "id": "ionski-susilnik-za-lase-ambiano",
@@ -1347,7 +1457,9 @@
    "institution": "Tržni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/ionski-susilnik-za-lase-ambiano/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Susilnik-las-1__FillWzQ1MCwzMzAsIjNhMTFkMDAyMGYiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Susilnik-las-1__FillWzQ1MCwzMzAsIjNhMTFkMDAyMGYiXQ.jpg",
+   "danger": "quality",
+   "genre": "fire"
   },
   {
    "id": "bio-sladoled-jagoda",
@@ -1371,7 +1483,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/bio-sladoled-jagoda/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Love-berry_loncek__FillWzQ1MCwzMzAsIjgzYjE3MmNmM2UiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Love-berry_loncek__FillWzQ1MCwzMzAsIjgzYjE3MmNmM2UiXQ.png",
+   "danger": "chemical",
+   "genre": "pesticide"
   },
   {
    "id": "jazmp-ocrevus-okrelizumab-obvestilo-za-zdravst",
@@ -1395,7 +1509,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/10/08/ocrevus-okrelizumab-obvestilo-za-zdravstvene-delavce/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "medicine"
   },
   {
    "id": "sveze-mleto-mesano-meso-2",
@@ -1418,7 +1534,9 @@
    "advice": "Izdelku je rok trajanja potekel. V kolikor so potrošniki izdelek zamrznili, potrošnikom svetujemo , da izdelka ne zaužijejo, temveč ga vrnejo na mesto nakupa.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/sveze-mleto-mesano-meso-2/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "gumijasti-bonboni",
@@ -1442,7 +1560,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/gumijasti-bonboni/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v36__FitWzk4MCw5ODAsImJlMTRiZmU5ZGUiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v36__FitWzk4MCw5ODAsImJlMTRiZmU5ZGUiXQ.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "ananas",
@@ -1465,7 +1585,9 @@
    "advice": "Potrošnikom svetujemo, da živila ne zaužijejo, temveč vrnejo na mesto nakupa ali zavržejo.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/ananas/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "chemical",
+   "genre": "pesticide"
   },
   {
    "id": "igraca-lesena-sestavljanka",
@@ -1489,7 +1611,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-lesena-sestavljanka/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika44__FitWzk4MCw5ODAsIjA4ZTAzMTg2NmQiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika44__FitWzk4MCw5ODAsIjA4ZTAzMTg2NmQiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "sadni-bonboni-kislo-sadje",
@@ -1513,7 +1637,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/sadni-bonboni-kislo-sadje/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Sadni-bonboni__FitWzk4MCw5ODAsIjNhZDE2ZDNkZDYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Sadni-bonboni__FitWzk4MCw5ODAsIjNhZDE2ZDNkZDYiXQ.png",
+   "danger": "foreign",
+   "genre": "metal"
   },
   {
    "id": "igraca-3",
@@ -1537,7 +1663,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-3/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika43__FitWzk4MCw5ODAsIjkwMzVhNDBlNmYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika43__FitWzk4MCw5ODAsIjkwMzVhNDBlNmYiXQ.png",
+   "danger": "foreign",
+   "genre": "battery"
   },
   {
    "id": "igraca-lesena-vlecna-ladjica-z-motoricno-zanko",
@@ -1561,7 +1689,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-lesena-vlecna-ladjica-z-motoricno-zanko/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-1-v4__FitWzk4MCw5ODAsIjAzY2I3ZDA0NjIiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-1-v4__FitWzk4MCw5ODAsIjAzY2I3ZDA0NjIiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "piscancja-stegna-zacinjena",
@@ -1585,7 +1715,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/piscancja-stegna-zacinjena/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Zacinjena-pisancja-stegan-zar-legende__FitWzk4MCw5ODAsIjVjZDM4ZDJkMDkiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Zacinjena-pisancja-stegan-zar-legende__FitWzk4MCw5ODAsIjVjZDM4ZDJkMDkiXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "igraca-bager-s-spletne-trznice-temu",
@@ -1609,7 +1741,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-bager-s-spletne-trznice-temu/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/igraca-bager-__FitWzk4MCw5ODAsIjA3ZWU0ZTQ1YTIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/igraca-bager-__FitWzk4MCw5ODAsIjA3ZWU0ZTQ1YTIiXQ.png",
+   "danger": "quality",
+   "genre": "vision"
   },
   {
    "id": "elektricni-skiro-urban-glide",
@@ -1633,7 +1767,9 @@
    "institution": "Tržni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/elektricni-skiro-urban-glide/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Elektricni-skiro__FitWzk4MCw5ODAsImVkZDJjNTc2ZmUiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Elektricni-skiro__FitWzk4MCw5ODAsImVkZDJjNTc2ZmUiXQ.jpg",
+   "danger": "quality",
+   "genre": "quality_other"
   },
   {
    "id": "plisasta-gorila-s-spletne-trznice-shein",
@@ -1657,7 +1793,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/plisasta-gorila-s-spletne-trznice-shein/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Shein-opica__FitWzk4MCw5ODAsImI0MWIzMGM0YTkiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Shein-opica__FitWzk4MCw5ODAsImI0MWIzMGM0YTkiXQ.png",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "pistacije",
@@ -1681,7 +1819,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/pistacije/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v34__FitWzk4MCw5ODAsImE2Yzc5Y2ZiZmIiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v34__FitWzk4MCw5ODAsImE2Yzc5Y2ZiZmIiXQ.png",
+   "danger": "chemical",
+   "genre": "mycotoxin"
   },
   {
    "id": "zacimba-timurjeva-jagoda",
@@ -1705,7 +1845,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/zacimba-timurjeva-jagoda/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v35__FitWzk4MCw5ODAsImQxOTk1MWQ1MzciXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v35__FitWzk4MCw5ODAsImQxOTk1MWQ1MzciXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "varovalo-za-omare-freeon",
@@ -1729,7 +1871,9 @@
    "institution": "Tržni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/varovalo-za-omare-freeon/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Varovalo-za-omare-izven-primarne-embalaze__FitWzk4MCw5ODAsIjQwZDNkZWQ1NDgiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Varovalo-za-omare-izven-primarne-embalaze__FitWzk4MCw5ODAsIjQwZDNkZWQ1NDgiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "vipa-flips-ketchup",
@@ -1753,7 +1897,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/vipa-flips-ketchup/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Posnetek-zaslona-2026-09-22-191408__FillWzQ1MCwzMzAsIjI1M2NlMDk3MTQiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Posnetek-zaslona-2026-09-22-191408__FillWzQ1MCwzMzAsIjI1M2NlMDk3MTQiXQ.png",
+   "danger": "allergen",
+   "genre": "milk"
   },
   {
    "id": "hrana-za-pse-2",
@@ -1777,7 +1923,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/hrana-za-pse-2/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v13__FillWzQ1MCwzMzAsIjVmOTIyYzQ5YjciXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v13__FillWzQ1MCwzMzAsIjVmOTIyYzQ5YjciXQ.png",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "dodaj-zapis-v-seznamu-260914084120",
@@ -1801,7 +1949,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/dodaj-zapis-v-seznamu-260914084120/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/zirafa__FitWzk4MCw5ODAsIjQ1MGU2ZjM1Y2QiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/zirafa__FitWzk4MCw5ODAsIjQ1MGU2ZjM1Y2QiXQ.jpg",
+   "danger": "chemical",
+   "genre": "phthalate_lead"
   },
   {
    "id": "set-kozmeticnih-torbic-31-plasticen-eleganza-ean-st-8720573087964-druga-st-046838-2666724",
@@ -1825,7 +1975,9 @@
    "institution": "Urad za kemikalije",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/set-kozmeticnih-torbic-31-plasticen-eleganza-ean-st-8720573087964-druga-st-046838-2666724/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/set-kozmeticnih-torbic__FitWzk4MCw5ODAsImUyODI0Y2UwYzEiXQ.JPG"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/set-kozmeticnih-torbic__FitWzk4MCw5ODAsImUyODI0Y2UwYzEiXQ.JPG",
+   "danger": "chemical",
+   "genre": "phthalate_lead"
   },
   {
    "id": "datlji-s-koscicami",
@@ -1849,7 +2001,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/datlji-s-koscicami/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v12__FillWzQ1MCwzMzAsImQ0ZjczNDZhMTAiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Fotografija-v12__FillWzQ1MCwzMzAsImQ0ZjczNDZhMTAiXQ.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "protizdrsna-podlaga-za-tus-ali-banjo",
@@ -1873,7 +2027,9 @@
    "institution": "Urad za kemikalije",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/protizdrsna-podlaga-za-tus-ali-banjo/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/protidrsna-podlaga-za-tus__FitWzk4MCw5ODAsIjEzOTQ4YmJmYTQiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/protidrsna-podlaga-za-tus__FitWzk4MCw5ODAsIjEzOTQ4YmJmYTQiXQ.jpg",
+   "danger": "chemical",
+   "genre": "phthalate_lead"
   },
   {
    "id": "cilijeve-nitke",
@@ -1897,7 +2053,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/cilijeve-nitke/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/niti-cilija__FitWzk4MCw5ODAsImZlOGNiY2Y1Y2MiXQ.jpg.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/niti-cilija__FitWzk4MCw5ODAsImZlOGNiY2Y1Y2MiXQ.jpg.png",
+   "danger": "bacterial",
+   "genre": "mould"
   },
   {
    "id": "mleto-mesano-meso-6",
@@ -1921,7 +2079,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mleto-mesano-meso-6/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/mleto-mes-meso__FitWzk4MCw5ODAsIjAwMWE1OWUzYTYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/mleto-mes-meso__FitWzk4MCw5ODAsIjAwMWE1OWUzYTYiXQ.png",
+   "danger": "bacterial",
+   "genre": "ecoli"
   },
   {
    "id": "jazmp-zdravila-z-zelezom-za-parenteralno-upora",
@@ -1945,7 +2105,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/09/11/zdravila-z-zelezom-za-parenteralno-uporabo-zacetek-pregleda-varnosti/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "medicine"
   },
   {
    "id": "igraca-z-izstrelki-pistola-bomba-assorbente",
@@ -1969,7 +2131,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-z-izstrelki-pistola-bomba-assorbente/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-1a-v2__FitWzk4MCw5ODAsIjlkNmVhNTEzNDkiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-1a-v2__FitWzk4MCw5ODAsIjlkNmVhNTEzNDkiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "igraca-letalo-giavair-ac23",
@@ -1993,7 +2157,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-letalo-giavair-ac23/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/letalo__FitWzk4MCw5ODAsIjYxYTZjZGY5OGYiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/letalo__FitWzk4MCw5ODAsIjYxYTZjZGY5OGYiXQ.jpg",
+   "danger": "foreign",
+   "genre": "battery"
   },
   {
    "id": "vaflji-s-kremo",
@@ -2017,7 +2183,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/vaflji-s-kremo/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika2-v9__FitWzk4MCw5ODAsImVjYmU0MjA2ZGYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika2-v9__FitWzk4MCw5ODAsImVjYmU0MjA2ZGYiXQ.png",
+   "danger": "allergen",
+   "genre": "milk"
   },
   {
    "id": "grizalo-s-spletne-trznice-amazon",
@@ -2041,7 +2209,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/grizalo-s-spletne-trznice-amazon/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/grizalo-Amazon__FitWzk4MCw5ODAsImM3MmQ0NmM4NjYiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/grizalo-Amazon__FitWzk4MCw5ODAsImM3MmQ0NmM4NjYiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "komplet-igrac-za-kopanje",
@@ -2065,7 +2235,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/komplet-igrac-za-kopanje/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Robot-fish-Shein__FitWzk4MCw5ODAsIjQ3MWI0ZjFiMmQiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Robot-fish-Shein__FitWzk4MCw5ODAsIjQ3MWI0ZjFiMmQiXQ.png",
+   "danger": "chemical",
+   "genre": "battery"
   },
   {
    "id": "bio-kasa-iz-jabolk-breskev-in-manga-primerna-od-6-meseca-starosti",
@@ -2089,7 +2261,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/bio-kasa-iz-jabolk-breskev-in-manga-primerna-od-6-meseca-starosti/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Lupilu-Bio-sadna-kasa-jabolko-breskev-mango-100g__FitWzk4MCw5ODAsIjhlYmUxN2I4MzMiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Lupilu-Bio-sadna-kasa-jabolko-breskev-mango-100g__FitWzk4MCw5ODAsIjhlYmUxN2I4MzMiXQ.jpg",
+   "danger": "chemical",
+   "genre": "mycotoxin"
   },
   {
    "id": "igraca-lesene-kocke",
@@ -2113,7 +2287,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-lesene-kocke/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/slika-Tedi__FitWzk4MCw5ODAsImI1NzAwNzA0MGQiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/slika-Tedi__FitWzk4MCw5ODAsImI1NzAwNzA0MGQiXQ.jpg",
+   "danger": "foreign",
+   "genre": "choke"
   },
   {
    "id": "jazmp-rybelsus-peroralni-semaglutid-obvestilo-",
@@ -2137,7 +2313,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/09/03/rybelsus-peroralni-semaglutid-obvestilo-za-zdravstvene-delavce/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "medicine"
   },
   {
    "id": "igraca-projektor-pujsa-relkon",
@@ -2161,7 +2339,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-projektor-pujsa-relkon/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-1-v3__FitWzk4MCw5ODAsImMyNjRlZWUxMmYiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-1-v3__FitWzk4MCw5ODAsImMyNjRlZWUxMmYiXQ.jpg",
+   "danger": "chemical",
+   "genre": "battery"
   },
   {
    "id": "caj-2",
@@ -2184,7 +2364,9 @@
    "advice": "Živilo ni bilo distribuirano končnim potrošnikom.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/caj-2/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "quality",
+   "genre": "quality_other"
   },
   {
    "id": "cokoladni-flips-draze",
@@ -2208,7 +2390,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/cokoladni-flips-draze/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/RASSF/Choco-stobi-vitaminka__ScaleMaxWidthWzIwMCwiNTg4NDc1NzVjYSJd.png"
+   "image": "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/RASSF/Choco-stobi-vitaminka__ScaleMaxWidthWzIwMCwiNTg4NDc1NzVjYSJd.png",
+   "danger": "allergen",
+   "genre": "soy"
   },
   {
    "id": "petersilj-2",
@@ -2231,7 +2415,9 @@
    "advice": "Živilo je varno za uživanje. Potrošniki ga sicer lahko vrnejo na mesto nakupa.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/petersilj-2/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "chemical",
+   "genre": "pesticide"
   },
   {
    "id": "igraca-na-baterije-v-obliki-zajca-s-spletne-trznice-shein",
@@ -2255,7 +2441,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/igraca-na-baterije-v-obliki-zajca-s-spletne-trznice-shein/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/igraca-Shein-v2__FitWzk4MCw5ODAsImI2MGE4ZDYyNmUiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/igraca-Shein-v2__FitWzk4MCw5ODAsImI2MGE4ZDYyNmUiXQ.jpg",
+   "danger": "chemical",
+   "genre": "battery"
   },
   {
    "id": "paprika-bela-babura",
@@ -2278,7 +2466,9 @@
    "advice": "Potrošnikom, občutljivim na pekoče, svetujemo, da izdelka ne uživajo oz. ga ne uporabljajo za pripravo ozimnice ter ga vrnejo na prodajno mesto.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/paprika-bela-babura/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "quality",
+   "genre": "quality_other"
   },
   {
    "id": "jazmp-rybelsus-semaglutid-tveganje-za-napake-p",
@@ -2302,7 +2492,9 @@
    "institution": "JAZMP",
    "link": "https://www.jazmp.si/2026/08/26/rybelsus-semaglutid-tveganje-za-napake-pri-jemanju-nove-formulacije-zdravila/",
    "source": "JAZMP",
-   "noteEn": false
+   "noteEn": false,
+   "danger": "medical",
+   "genre": "medicine"
   },
   {
    "id": "baloni-s-spletne-trznice-temu",
@@ -2326,7 +2518,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/baloni-s-spletne-trznice-temu/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/baloni-Temu__FitWzk4MCw5ODAsImQ0ZDJjYTc1ODMiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/baloni-Temu__FitWzk4MCw5ODAsImQ0ZDJjYTc1ODMiXQ.jpg",
+   "danger": "chemical",
+   "genre": "nitrosamine"
   },
   {
    "id": "prehransko-dopolnilo-4energy-l-carnitine-gel",
@@ -2350,7 +2544,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/prehransko-dopolnilo-4energy-l-carnitine-gel/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-L-carnitine-vitC__FitWzk4MCw5ODAsIjRlMGZkZGZhMDQiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika-L-carnitine-vitC__FitWzk4MCw5ODAsIjRlMGZkZGZhMDQiXQ.png",
+   "danger": "quality",
+   "genre": "labelling"
   },
   {
    "id": "prehransko-dopolnilo-vitamin-d3-k2-e",
@@ -2374,7 +2570,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/prehransko-dopolnilo-vitamin-d3-k2-e/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Anasan-pic__FitWzk4MCw5ODAsIjM2NmE5ZDIxYmMiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Anasan-pic__FitWzk4MCw5ODAsIjM2NmE5ZDIxYmMiXQ.png",
+   "danger": "quality",
+   "genre": "labelling"
   },
   {
    "id": "cokoladni-puding",
@@ -2398,7 +2596,9 @@
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/cokoladni-puding/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v32__FitWzk4MCw5ODAsImYzZjIxYTNiZjYiXQ.png"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/Slika1-v32__FitWzk4MCw5ODAsImYzZjIxYTNiZjYiXQ.png",
+   "danger": "bacterial",
+   "genre": "bacillus"
   },
   {
    "id": "piscancja-krila-2",
@@ -2421,7 +2621,9 @@
    "advice": "Živilu je pretekel rok uporabe. V kolikor so potrošniki izdelek zamrznili, naj ga zavržejo.",
    "institution": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/piscancja-krila-2/",
-   "source": "GOV.SI"
+   "source": "GOV.SI",
+   "danger": "bacterial",
+   "genre": "salmonella"
   },
   {
    "id": "prehransko-dopolnilo-b-complex-focus",
@@ -2445,7 +2647,9 @@
    "institution": "Zdravstveni inšpektorat",
    "link": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/prehransko-dopolnilo-b-complex-focus/",
    "source": "GOV.SI",
-   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/B-Complex-Focus-416x416__FitWzk4MCw5ODAsImQxODA4MmJjZTIiXQ.jpg"
+   "image": "https://www.gov.si/assets/seznami/nevarni-in-neskladni-izdelki/B-Complex-Focus-416x416__FitWzk4MCw5ODAsImQxODA4MmJjZTIiXQ.jpg",
+   "danger": "quality",
+   "genre": "labelling"
   }
  ]
 }
